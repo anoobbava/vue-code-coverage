@@ -26,5 +26,10 @@ module.exports = {
   watchPlugins: [
     '/Users/sarath/vuejs/vue-code-coverage/node_modules/jest-watch-typeahead/filename.js',
     '/Users/sarath/vuejs/vue-code-coverage/node_modules/jest-watch-typeahead/testname.js'
-  ]
+  ],
+  collectCoverage: true,
+  collectCoverageFrom: ['**/*.{vue}', '!**/node_modules/**', '!<rootDir>/dist/**',
+    '!<rootDir>/src/plugins/**', '!<rootDir>/tests/unit/**'
+  ],
+  coverageReporters: ['html', 'text-summary']
 }
