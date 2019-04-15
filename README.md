@@ -1,5 +1,8 @@
 # vue-code-coverage
 
+this is a sample project which deals with how we can add code coverage to the vue js application using the Jest and travis CI and also using the coveralls
+
+[![Build Status](https://travis-ci.org/anoobbava/vue-code-coverage.svg?branch=master)](https://travis-ci.org/anoobbava/vue-code-coverage)
 ## Project setup
 ```
 npm install
